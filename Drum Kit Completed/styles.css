@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-color: #58bd61;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #48b3e4;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w, .a, .s, .d, .j, .k, .l {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.w {
+  background-image: url("images/tom\ 1.png");
+  object-fit: contain;
+}
+
+.a {
+  background-image: url("images/tom\ 2.png");
+  object-fit: contain;
+}
+
+.s {
+  background-image: url("images/tom\ 3.jpg");
+  object-fit: contain;
+}
+
+.d {
+  background-image: url("images/tom\ 4.jpg");
+  object-fit: contain;
+}
+
+.j {
+  background-image: url("images/snare\ drum.webp");
+  object-fit: contain;
+}
+
+.k {
+  background-image: url("images/crash\ cymbal.jpg");
+  object-fit: contain;
+}
+
+.l {
+  background-image: url("images/kick.webp");
+  object-fit: contain;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
